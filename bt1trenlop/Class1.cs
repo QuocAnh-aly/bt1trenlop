@@ -12,5 +12,6 @@ namespace bt1trenlop
         public kiemtraso() { }
         public void nhap(int x) { this.n = x; }
         public void xuat() { Console.WriteLine(n);}
+        public double square_root (int x) { return sqrt(x); }
     }
 }
